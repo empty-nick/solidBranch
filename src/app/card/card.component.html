@@ -1,0 +1,12 @@
+<div class="card" style="width: 15rem">
+  <div class="card-body">
+    <h5 class="card-title">{{ card.countTypes }}</h5>
+    <p class="card-text">{{ card.type }}</p>
+    <a
+      [routerLink]="['/navigator']"
+      [queryParams]="{ tab: card.link}" 
+      class="btn btn-primary"
+      >See all</a
+    >
+  </div>
+</div>

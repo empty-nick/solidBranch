@@ -1,0 +1,18 @@
+.container {
+  margin-top: 3rem;
+  position: relative;
+  justify-content: center;
+
+
+  max-width: 33vw;
+
+  .cardList{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    margin: 1rem auto;
+  }
+}
