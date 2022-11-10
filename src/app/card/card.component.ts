@@ -8,6 +8,7 @@ import { ICard } from '../app.component';
 })
 export class CardComponent implements OnInit {
 
+  // Array from the app.component
   @Input() card: ICard
 
   ngOnInit() { }
